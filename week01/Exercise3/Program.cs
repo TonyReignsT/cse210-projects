@@ -9,8 +9,10 @@ class Program
         int magicNumber;
         int guess;
 
-        Console.Write("What is your magic number? ");
-        magicNumber = int.Parse(Console.ReadLine());
+        Console.WriteLine("Guess a number between 1 and 100: ");
+        // magicNumber = int.Parse(Console.ReadLine());
+        Random randomGenerator = new Random();
+        magicNumber = randomGenerator.Next(1, 100);
 
         do
         {
