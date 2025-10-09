@@ -6,11 +6,11 @@ class Program
     {
         // Create addresses
         Address address1 = new Address("123 Main St", "New York", "NY", "USA");
-        Address address2 = new Address("45 King St", "Toronto", "ON", "Canada");
+        Address address2 = new Address("80 Syoki Kat", "Nairobi", "KE", "Kenya");
 
         // Create customers
-        Customer customer1 = new Customer("John Doe", address1);
-        Customer customer2 = new Customer("Emma Brown", address2);
+        Customer customer1 = new Customer("Rachel Zim", address1);
+        Customer customer2 = new Customer("Tony Reigns", address2);
 
         // Create first order
         Order order1 = new Order(customer1);
