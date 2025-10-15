@@ -1,0 +1,4 @@
+950
+SimpleGoal:Complete assignment,  Do this a assignment with dedication., 100, True
+EternalGoal:Assignment reflection,  Reflection and application of this assignment, 50
+ChecklistGoal:Submission,  submit the assignment after running tests, 100, 3, 500, 3
